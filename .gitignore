@@ -1,0 +1,22 @@
+# Datos originales y derivados
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+config.json
+
+# Entornos y artefactos de ejecución
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+mlruns/
+mlartifacts/
+outputs/
+logs/
+*.log
